@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Kevin Krauze</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"> Kevin <span>Krauze</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, it's Kevin</h1>
+        <h3 class="text-animation">I'm a <span id="text"></span></h3>
+        <h3>Welcome</h3>
+        <p>
+          I’m a beginner full-stack web developer and student with a passion for
+          building efficient, modern web applications. My primary focus is on
+          JavaScript and Node.js, and I have experience with HTML, CSS, Express,
+          Sequelize, Mongoose, MongoDB, and PostgreSQL.
+        </p>
+        <p>
+          With a background as a lawyer, I bring a unique perspective to
+          problem-solving and project development. Explore my journey as I
+          bridge the gap between business, creativity, and technology.
+        </p>
+      </div>
+      <div class="home-img">
+        <img src="imgs/img1.jpeg" alt="" />
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <h2 class="heading">Education</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2015-2019</div>
+          <div class="timeline-content">
+            <h3>Law</h3>
+            <p>
+              I graduated with the fourth highest score in the institution and
+              became a lawyer with extensive experience in various legal
+              sectors.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 - 2024</div>
+          <div class="timeline-content">
+            <h3>Internet Systems</h3>
+            <p>
+              I earned an associate degree while working in a court in Brazil
+              and later while visiting the United States for a few months.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025 - 2028</div>
+          <div class="timeline-content">
+            <h3>Software Engineering</h3>
+            <p>
+              I started my degree in software engineering, completely
+              focused on technology and enhance it with my courses and
+              self-taught studies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-container">
+        <div class="projects-box">
+          <a href="https://github.com/Athen0001/RenameApp" target="_blank"
+            ><picture>
+              <source srcset="imgs/filerenamermenor.png" media="(max-width: 895px)" />
+              <img src="imgs/filerenamer.png" alt="File Renamer" />
+            </picture>
+          </a>
+        </div>
+
+        <div class="projects-box">
+          <a href="https://github.com/Athen0001/urlrename" target="_blank"
+            ><picture>
+              <source srcset="imgs/thumbURLmenor.png" media="(max-width: 895px)" />
+              <img src="imgs/thumbURL.png" alt="URL Shortener" />
+            </picture>
+          </a>
+        </div>
+
+        <div class="projects-box">
+          <a href="https://github.com/Athen0001/chatonline" target="_blank">
+            <picture>
+              <source srcset="imgs/ChatOnlineMenor.png" media="(max-width: 895px)" />
+              <img src="imgs/ChatOnline.png" alt="Chat Online" />
+            </picture>
+          </a>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="prev-btn">&#10092;</button>
+        <button class="next-btn">&#10093;</button>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact</h2>
+      <div class="contact-icons">
+        <div class="social-icons">
+          <h4>LinkedIn</h4>
+          <a href="https://www.linkedin.com/in/kevin-krauze/" target="_blank"
+            >
+            <!-- <box-icon type="logo" name="linkedin-square"></box-icon> -->
+            <i class='bx bxl-linkedin-square'></i>
+          </a>
+          <h4>GitHub</h4>
+          <a href="https://github.com/KevinKrauze" target="_blank"
+            >
+            <!-- <box-icon type="logo" name="github"></box-icon> -->
+            <i class='bx bxl-github'></i>
+          </a>
+        </div>
+
+        <div class="contact-box--btn">
+          <input
+            type="button"
+            target="_blank"
+            value="Contact me!"
+            class="btn"
+            onclick="openGmailCompose()"
+          />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Thanks for visiting.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!--<script src="js/icons.js"></script> -->
+  </body>
+</html>

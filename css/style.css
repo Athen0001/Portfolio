@@ -1,0 +1,18 @@
+@import "base/_reset.css";
+@import "base/_variables.css";
+@import "base/_base.css";
+
+@import "layout/_header.css";
+@import "layout/_footer.css";
+
+@import "components/_home.css";
+@import "components/_education.css";
+@import "components/_projects.css";
+@import "components/_timeline.css";
+@import "components/_contact.css";
+@import "components/_buttons.css";
+
+@import "utilities/_animations.css";
+@import "utilities/_scrollbar.css";
+
+@import "responsive/_media-queries.css";
